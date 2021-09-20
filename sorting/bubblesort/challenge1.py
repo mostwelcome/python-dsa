@@ -48,4 +48,4 @@ elements = [
 ]
 
 bubble_sort(elements, key='transaction_amount')
-print(elements)
+print(*elements, sep='\n')
